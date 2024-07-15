@@ -1,5 +1,6 @@
 let sketch2 = function(p) {
     p.setup = function() {
+        p.pixelDensity(1);
         p.createCanvas(400, 400);
         p.background(100);
     };

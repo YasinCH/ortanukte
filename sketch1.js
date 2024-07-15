@@ -8,6 +8,7 @@ let sketch1 = function(p) {
     let r = 50;
   
     p.setup = function() {
+      p.pixelDensity(1);
       p.createCanvas(400, 400);
     };
   
