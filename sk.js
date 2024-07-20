@@ -7,11 +7,13 @@ let y = 100;
 let r = 50;
 
 function setup() {
+    pixelDensity(1);
+
     let canvas = createCanvas(400, 400);
     canvas.parent('canvas0'); // Attach the canvas to the div with ID 'canvas1'
 
     noStroke();
-    fill(255, 0, 0);
+    fill(0, 255, 0);
   }
 
 function draw() {
